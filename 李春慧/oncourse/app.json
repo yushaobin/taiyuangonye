@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/all_content/index",
+    "pages/course_content/index",
+    "pages/new_course/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  }
+}

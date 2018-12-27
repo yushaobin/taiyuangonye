@@ -1,0 +1,28 @@
+<!--pages/all_content/index.wxml-->
+
+<view class='placeholder'></view>
+<view class='container'>
+  <view class='page_title'>
+    <image class='back' src='/img/back.png'></image>
+    <text class='info'>全部内容</text>
+  </view>
+  <view class='second_tab'>
+    <view>NEW</view>
+    <view class='active'>ALL</view>
+    <view>
+      <image src='/img/line.png'></image>
+    </view>
+  </view>
+  <view class='item' wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+    <view class='left'>
+        <view>{{item.date}}</view>
+        <view>{{item.title}}</view>
+    </view>
+    <view class='right'>
+      <image src="{{item.img}}"></image>
+    </view>
+  </view>
+
+
+
+</view>

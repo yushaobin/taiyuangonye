@@ -1,0 +1,66 @@
+/* pages/all_content/index.wxss */
+.container{
+  background: #e8e8e8;
+}
+.page_title {
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+  position: relative;
+  height: 2.5em;
+  background: #fff;
+}
+
+.page_title .back {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+}
+
+.page_title .info {
+  line-height: 2.5em;
+}
+.second_tab {
+  display: flex;
+  flex-direction: row;
+  height: 2em;
+  box-shadow: 0px 0px 3px #e8e8e8;
+  background: #fff;
+  color: #929292;
+}
+
+.second_tab > view {
+  width: 33%;
+  text-align: center;
+  line-height: 2em;
+}
+
+.second_tab > view.active {
+  border-bottom: 3px solid #ffc12b;
+  color: #000;
+}
+.second_tab image{
+  width: 20px;
+  height: 20px;
+}
+
+.item{
+  background: #fff;
+  height: 50px;
+  margin: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px;
+  padding: 1em;
+  justify-content:space-between;
+}
+.left{
+  font-size: 16px;
+}
+.right image{
+  width:40px;
+  height: 40px;
+  padding: 0.5em;
+  vertical-align: middle;
+}

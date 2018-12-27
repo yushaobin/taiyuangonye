@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class='placeholder'></view>
+<view class="container">
+  <swiper class='lunbo' autoplay='true' indicator-dots='true'>
+    <swiper-item>
+      <image src='/img/lunbor1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/img/lunbor2.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/img/lunbor3.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <view class='box'>
+    <view class='box-title'>
+      <text>我的课程(10)</text>
+      <navigator class='see-all'>查看全部
+      <image src='/img/right.png'></image>
+      </navigator>
+    </view>
+    <view class='box-content'>
+     <scroll-view class='class_list' scroll-x='true'>
+       <image class='_class' bindtap='jumpToDetail' src='/img/class_wrapper.jpg'></image>
+       <image class='_class' src='/img/class_wrapper.jpg'></image>
+       <image class='_class' src='/img/class_wrapper.jpg'></image>
+       <image class='_class' src='/img/class_wrapper.jpg'></image>
+     </scroll-view>
+    </view>
+  </view>
+
+  <view class='box'>
+    <view class='box-title'>
+      <text>全部课程(10)</text>
+      <navigator class='see-all'>查看全部
+      <image src='/img/right.png'></image>
+      </navigator>
+    </view>
+    <view class='box-content'>
+     <scroll-view class='class_list' scroll-x='true'>
+       <image class='_class' src='/img/class_wrapper.jpg'></image>
+       <image class='_class' src='/img/class_wrapper.jpg'></image>
+       <image class='_class' src='/img/class_wrapper.jpg'></image>
+       <image class='_class' src='/img/class_wrapper.jpg'></image>
+     </scroll-view>
+    </view>
+  </view>
+</view>

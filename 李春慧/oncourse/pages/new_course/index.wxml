@@ -1,0 +1,45 @@
+<!--pages/new_course/index.wxml-->
+<view class='placeholder'></view>
+<view class='container'>
+  <view class='page_title'>
+    <image class='back' src='/img/back.png'></image>
+    <text class='info'>今日任务</text>
+  </view>
+  <view class='second_tab'>
+    <view class='active'>最新课程</view>
+    <view>全部课程</view>
+  </view>
+  <view class='course_detail'>
+    <image class='course_wrapper' src='/img/xdd.jpg'></image>
+    <text class='public_date'>2018-12-27</text>
+    <view class='course_title'>"大船"和"风浪" ----学习习近平的合作共赢金句</view>
+    <view class='btn_box'>
+      <view class='btn learn_btn'>学习</view>
+      <view class='btn card_btn'>打卡</view>
+    </view>
+  </view>
+  <!-- 
+  <view class='_details'>
+    <view class='details'>
+      <view class='pic'>
+        <image src='/img/xdd.jpg'></image>
+      </view>
+      <view class='_text'>
+        <view class='_text1'>
+          <text>2018.12.11</text>
+        </view>
+        <view class='_text2'>
+          <text decode="{{true}}" space="{{true}}">"大船"和"风浪"&nbsp;&nbsp;&nbsp;—&nbsp;—学习习近平总书记的合作共赢金句</text>
+        </view>
+      </view>
+      <view>
+        <button class='btn_1'>
+          <p class='btn_text_1'>学习</p>
+        </button>
+        <button class='btn_2'>
+          <p class='btn_text_2'>打卡</p>
+        </button>
+      </view>
+    </view>
+  </view> -->
+</view>

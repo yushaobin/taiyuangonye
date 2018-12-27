@@ -1,0 +1,114 @@
+/* pages/course_content/index.wxss */
+
+.page_title {
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+  position: relative;
+  height: 2.5em;
+  background: #fff;
+}
+
+.page_title .back {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+}
+
+.page_title .info {
+  line-height: 2.5em;
+}
+
+.content{
+  height: 480px;
+}
+.course_wrapper {
+  width: 100%;
+}
+
+.course_info {
+  display:flex;
+  flex-direction: column;
+  padding: 2em;
+  margin-top: -160px;
+}
+
+.course_title {
+  color: #fff; 
+  font-size: 20px;
+}
+
+.public_date {
+  margin-top: 0.5em;
+  color: #fff;
+  font-size: 16px;
+}
+.course_teacher_info{
+  margin: -1em 2em 0em 2em;
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 10px;
+}
+.teacher_photo{
+  background: #fff;
+  border-radius: 10px 0px 0px 0px;
+}
+.teacher_info{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 0em 2em 0em 2em;
+  border-radius: 0px 10px 0px 0px;
+}
+.teacher_photo image{
+  width: 100px;
+  height: 100px;
+}
+.read_bar {
+  margin-top: 20px;
+  border-bottom: 1px solid #e8e8e8;
+  position: relative;
+  height: 2.5em;
+  background: #fff;
+}
+
+.read_image {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+}
+
+.read_title {
+  line-height: 2.5em;
+  padding: 4em;
+  font-size: 16px;
+}
+.read_content{
+  padding: 1em;
+  font-size: 19px;
+  color: #2c2b2be3;
+}
+._progress{
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+.jindutiao{
+  width: 250px;
+}
+.bottom_bar{
+  padding:-1.5em 0em 1em 0em;
+  margin:0px  auto;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+}
+.bottom_bar_pic{
+  margin: 0px 20px 0px 20px;
+  width: 50px;
+  height: 50px;
+}
